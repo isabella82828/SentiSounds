@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Isabella Rossi</Author>
+  <LastAuthor>Isabella Rossi</LastAuthor>
+  <Created>2024-11-05T20:45:09Z</Created>
+  <LastSaved>2024-11-05T20:44:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16940</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>380</WindowTopX>
+  <WindowTopY>500</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Aptos Narrow" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="model-predictions">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="320" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">actualvalues,predictedvalues</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_calm,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_sad,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_calm,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_sad,female_calm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_fearful,female_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_fearful,male_fearful</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,female_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_angry,female_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_angry,male_angry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">female_happy,male_sad</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">male_happy,male_happy</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
