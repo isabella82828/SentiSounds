@@ -1,4 +1,4 @@
-# 🎶 SentiSounds
+# 🎶 SentiSounds: Emotion Detection from Speech"
 ## Project Overview 
 This project aims to develop a machine learning model capable of detecting emotions from speech, enhancing personalization in various applications. By analyzing vocal expressions, the model can infer emotional states. 
 
