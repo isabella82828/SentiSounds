@@ -19,9 +19,7 @@ Utilizing Python's LibROSA library, features were extracted from the audio files
 The resulting feature arrays, each labeled with the corresponding emotion, served as input for model training.
 
 ## Model Development 
-A Convolutional Neural Network (CNN) was employed, while zlternative models, such as Multilayer Perceptrons (MLPs) and Long Short-Term Memory (LSTM) networks, were also tested but yielded lower accuracies.
-
-The model effectively distinguishes between male and female voices with 100% accuracy and identifies emotions with over 70% accuracy. 
+A Convolutional Neural Network (CNN) was employed, while alternative models, such as Multilayer Perceptrons (MLPs) and Long Short-Term Memory (LSTM) networks, were also tested but yielded lower accuracies.
 
 ## Conclusions
 - __Model Performance:__ The model successfully detected five different male and female emotions from speech. The model distinguished between male and female voices with 100% accuracy and detected emotions with over 70% accuracy.
