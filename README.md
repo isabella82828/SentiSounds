@@ -1,9 +1,9 @@
-# SentiSounds
+# 🎶 SentiSounds
 ## Project Overview 
 This project aims to develop a machine learning model capable of detecting emotions from speech, enhancing personalization in various applications. By analyzing vocal expressions, the model can infer emotional states. 
 
 ## Datasets
-Two primary datasets were used: 
+📂 Two primary datasets were used: 
 1. RAVDESS: Comprising approximately 1,500 audio files from 24 actors
 2. SAVEE: Containing around 500 audio files from four male actors
 
